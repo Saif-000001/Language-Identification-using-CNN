@@ -7,6 +7,9 @@ Download the model and run a 3 seconds test audio using "interfacing.py". You wi
 The goal of this project is to accurately classify language tracks into their respective identity by analyzing short clips of audio. We use a CNN model for this task, as CNNs are highly effective in extracting patterns from visual data. The process involves converting audio files into mel spectrogram images, which capture the essential frequencies and textures of the language, serving as the input data for our CNN model.
 
 ## Audio Dataset Info
-Download Link
+#Download Link
 
 [Download the dataset here](https://drive.google.com/drive/folders/1s6N-sHHGvt4Hy8CNB4pZ0-cxSJKGAX4r?usp=drive_link)
+
+#Contents
+The dataset is organized into 2 subfolders, each representing a unique language identification. Each subfolder contains 20 audio files, with each file having a duration of 30 seconds. The total dataset comprises 40 audio files, providing a diverse collection of language samples for training and testing our model.
