@@ -3,4 +3,4 @@ Language is a system of conventional, spoken or written symbols by means of whic
 
 ## Project Overview
 Download the model and run a 3 seconds test audio using "interfacing.py". You will get a following output.
-file:///home/saif/Pictures/Screenshots/Screenshot%20from%202024-03-10%2016-14-36.png
+
