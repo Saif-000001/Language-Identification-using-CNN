@@ -3,13 +3,13 @@ Language is a system of conventional, spoken or written symbols by means of whic
 
 ## Project Overview
 Download the model and run a 3 seconds test audio using "interfacing.py". You will get a following output.
-![Screenshot from 2024-03-10 16-14-36](file:///home/saif/Pictures/Screenshots/Screenshot%20from%202024-03-10%2016-14-36.png)
+
 
 The goal of this project is to accurately classify language tracks into their respective identity by analyzing short clips of audio. We use a CNN model for this task, as CNNs are highly effective in extracting patterns from visual data. The process involves converting audio files into mel spectrogram images, which capture the essential frequencies and textures of the language, serving as the input data for our CNN model.
 
 ## Audio Dataset Info
 ### Download Link
-[Download the dataset here](https://drive.google.com/file/d/1UaTbyJ4YFx8OkpRgOqOZZEXFQkDWL74c/view?usp=sharing)
+[Download the dataset here](https://drive.google.com/file/d/1xlf6eJ4ArD1CCK2dbdlJeixveJwzEE-m/view?usp=drive_link)
 
 ### Contents
 The dataset is organized into 2 subfolders, each representing a unique language identification. Each subfolder contains 20 audio files, with each file having a duration of 30 seconds. The total dataset comprises 40 audio files, providing a diverse collection of language samples for training and testing our model.
@@ -35,7 +35,7 @@ python audio_2_image_dataset_generator.py
 After proessing complete, go to your audio data directory. Inside that you will find a new dataset folder. It contains the audio3sec folder and spectogram folder. Inside spectorgram, there is train and test split. Cut thso and put it in to root directory. 
 
 You can download the processed dataset directly from here and start the training immediately. Note that this model is undertrained due to time constrains. Its only trained on 20 epochs and achieve 56% accuracy. 
-[Download the dataset here](https://drive.google.com/drive/folders/1uYVF9ziQeq1Dilv5u_IURjxHwYiezfBq?usp=drive_link)  
+[Download the dataset here](https://drive.google.com/file/d/1UaTbyJ4YFx8OkpRgOqOZZEXFQkDWL74c/view?usp=drive_link)  
 
 
 ## Train 
