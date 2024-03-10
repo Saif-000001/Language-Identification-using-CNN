@@ -3,7 +3,7 @@ Language is a system of conventional, spoken or written symbols by means of whic
 
 ## Project Overview
 Download the model and run a 3 seconds test audio using "interfacing.py". You will get a following output.
-![Screenshot from 2024-03-10 16-14-36](file:///home/saif/Pictures/Screenshots/Screenshot%20from%202024-03-10%2016-14-36.png)
+![resul](https://github.com/Saif-000001/Language-Identification-using-CNN/assets/85629017/7528c2fb-b66f-40b4-9319-4f3ff873191e)
 
 The goal of this project is to accurately classify language tracks into their respective identity by analyzing short clips of audio. We use a CNN model for this task, as CNNs are highly effective in extracting patterns from visual data. The process involves converting audio files into mel spectrogram images, which capture the essential frequencies and textures of the language, serving as the input data for our CNN model.
 
